@@ -1,6 +1,9 @@
 {
   "C_Cpp.intelliSenseEngine": "default",
-  "idf.openOcdConfigs": ["board/esp32-wrover-kit-3.3v.cfg"],
+  "idf.openOcdConfigs": [
+    "board/esp32-wrover-kit-3.3v.cfg"
+  ],
+  "idf.portWin": "COM4",
   "idf.currentSetup": "C:\\esp\\v5.5.2\\esp-idf",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32"
@@ -9,8 +12,6 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\mathi\\Documents\\Schooljaar 25-26\\Microcontrollers\\ADC\\build"
-  ],
-  "idf.flashType": "UART",
-  "idf.portWin": "COM4"
+    "--compile-commands-dir=c:\\Users\\mathi\\Documents\\Schooljaar 25-26\\Microcontrollers\\PWM\\build"
+  ]
 }
