@@ -1,2 +1,3 @@
-void adc_component_init(int channel);
-int adc_component_read_mv(void);
+void myADC_setup(int channel);
+int myADC_getValue(int channel);
+int myADC_getMiliVolt(int channel);

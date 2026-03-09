@@ -21,34 +21,10 @@ void app_main(void)
     gpio_set_direction(LED_Geel, GPIO_MODE_OUTPUT);
     gpio_set_direction(LED_Rood, GPIO_MODE_OUTPUT);
 
-    // ADC initialiseren via component
-    adc_component_init(CHANNEL);
+   
 
     while (1)
     {
-        int potWaarde = adc_component_read_mv();
-
-        printf("Potentiometer waarde: %d mV\n", potWaarde);
-
-        if (potWaarde < 700)
-        {
-            gpio_set_level(LED_Groen, 1);
-            gpio_set_level(LED_Geel, 0);
-            gpio_set_level(LED_Rood, 0);
-        }
-        else if (potWaarde < 2000)
-        {
-            gpio_set_level(LED_Groen, 0);
-            gpio_set_level(LED_Geel, 1);
-            gpio_set_level(LED_Rood, 0);
-        }
-        else
-        {
-            gpio_set_level(LED_Groen, 0);
-            gpio_set_level(LED_Geel, 0);
-            gpio_set_level(LED_Rood, 1);
-        }
-
-        vTaskDelay(pdMS_TO_TICKS(100));
+        
     }
 }
