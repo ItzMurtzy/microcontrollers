@@ -1,0 +1,18 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.5.2
+  myGPIO:
+    component_hash: 6e9caf0ea609a17e939511db326c103bd5febeaca93f33458b9d9cced5b11d4b
+    dependencies: []
+    source:
+      git: https://github.com/KNaelaerts/ESP32_Periferie.git
+      path: components/myGPIO
+      type: git
+    version: 751e0b19e37d47a4c4e2a0c9d528dd3af1f128b6
+direct_dependencies:
+- myGPIO
+manifest_hash: ce21077a7b84e08031d18008089bdfb8233ad9ab1cd13960e133cf0252d509bc
+target: esp32
+version: 2.0.0

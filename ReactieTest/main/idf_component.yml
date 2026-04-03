@@ -3,8 +3,3 @@ dependencies:
     git: https://github.com/KNaelaerts/ESP32_Periferie.git
     path: components/myGPIO
     version: '*'
-
-  myADC:
-    git: https://github.com/KNaelaerts/ESP32_Periferie.git
-    path: components/myADC
-    version: '*'

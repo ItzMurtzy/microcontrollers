@@ -9,8 +9,8 @@
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=c:\\Users\\mathi\\Documents\\Schooljaar 25-26\\Microcontrollers\\Slot\\build"
+    "--compile-commands-dir=c:\\Users\\mathi\\Documents\\Schooljaar 25-26\\Microcontrollers\\ReactieTest\\build"
   ],
-  "idf.flashType": "UART",
-  "idf.portWin": "COM4"
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART"
 }
